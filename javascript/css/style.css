@@ -1,0 +1,19 @@
+.title{
+    color: yellowgreen;
+    font-size: 25px;
+}
+
+.bgred{
+    background-color: red;
+}
+
+.bgblue{
+    background-color: blue;
+}
+
+.boton {
+    font-size: 25px;
+    background-color: black;
+    color: red;
+    border-radius: 15px;
+}

@@ -1,0 +1,93 @@
+:root{
+    --primary-color:#03C988;
+    --secundary-color:#323232;
+    --darkteal:#0D7377;
+    --aqua:#14FFEC;
+    --black:#212121;
+    --white:#fff;
+    --red:#FF204E;
+}
+
+.empresa{
+    color: var(--black);
+    text-align: center;
+    font-size: 25px;
+}
+
+ul{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    line-height: 1.5em;
+    color: white;
+}
+.footer { 
+    display: grid;
+    height: 700px;
+    align-content: center;
+    grid-template-columns: auto auto auto auto;
+    gap: 130px;
+    background-color: var(--darkteal);
+    padding: 60px;
+    margin-top: 70px;
+    width: 100%;
+    line-height: 1.5em;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+} 
+.contactanos2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.img1{
+    border-radius: 20px;
+}
+
+.iconos{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.ul a:hover{
+    color: red;
+}
+
+.iconos a:hover{
+    color: red;
+}
+
+
+.footer{
+    display: grid;
+    height: 700px;
+    align-content: center;
+    grid-template-columns: auto auto auto auto;
+    gap: 130px;
+    background-color: var(--darkteal);
+    padding: 60px;
+    margin-top: 70px;
+    width: 100%;
+    line-height: 1.5em;
+
+}
+
+.boton{
+    background-color: black;
+    border: solid var(--aqua) 2px;
+    border-radius: 20px;
+    padding: 20px 30px 20px 30px;
+    font-size: 20px;
+}
+
+.boton2{
+    background-color: black;
+    border: solid var(--aqua) 2px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}

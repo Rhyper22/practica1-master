@@ -1,0 +1,59 @@
+body{
+    margin:0;
+}
+.title{
+    color: crimson;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+}
+
+.h1{
+    color: chartreuse;
+    font-size: 70px;
+}
+
+.box{
+    width: 100%;
+    height: 600px;
+    background-color: navy;
+    border: 4px solid red;
+    /*padding-left: 30px;*/
+    padding: 20px 50px 80px 100px;
+    margin-top: 30%;
+    border-top: 10px green dotted;
+    border-right: 10px green dotted;
+    border-left: 10px green dotted;
+    border-bottom: 10px green dotted;
+    color: aliceblue;
+}
+
+.p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:blue ;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration:line-through orangered wavy 
+
+}
+
+.table{
+    background-color: chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border-color: orangered;
+    font-weight: 700;
+}
+
+.tr{
+    background-color: chartreuse;
+}
+
+.td{
+    background-color: darkred;
+}
+
+.class6{
+    color: chartreuse;
+    font-size: 60px;
+}

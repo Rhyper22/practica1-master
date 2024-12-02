@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.css">
+</head>
+<body>
+    <nav>
+        <li><a href="#"><i class="fa-solid fa-house"></i> Inicio</a></li>
+        <li class="#"><a href="#"><i class="fa-regular fa-comment"></i> ¿Quienes Somos?</a></li>
+        <li><a href="#"><i class="fa-brands fa-paypal"></i> Servicio</a></li>
+        <li><a href="#"><i class="fa-solid fa-pen-to-square"></i> Contacto</a></li>
+    </nav>
+    <section class="servicios">
+        <h1 class="h1">Conoce nuestros servicios</h1>
+        <article class="servicio1">
+            <h2> Diseño Web</h2>
+            <p> Diseñamos el sitio web que tu empresa necesita</p>
+            <table class="tabla" width="100%" border="1">
+                <tr> 
+                 <td>#</td>
+                 <td>Nombre</td>
+                 <td>Ciudad</td>
+                 <td>Monto</td>
+                </tr>
+                <tr>
+                 <td>1</td>
+                 <td>Juan</td>
+                 <td>Maracay</td>
+                 <td>100</td>
+                </tr>
+                <tr>
+                 <td>2</td>
+                 <td>Pedro</td>
+                 <td>Valencia</td>
+                 <td>80</td>
+                </tr>
+                <tr>
+                 <td>3</td>
+                 <td>Lucia</td>
+                 <td>Puerto La Cruz</td>
+                 <td>90</td>
+                </tr>
+                <tr>
+                 <td>4</td>
+                 <td>Roco</td>
+                 <td>Caracas</td>
+                 <td>100</td>
+                </tr>
+             </table>
+        </article>
+    </section>
+
+    <section class="fotografia">
+        <a href="https://pokemonshowdown.com" target="_self">
+            <img class="img" src="assets/images/chief.jpg" alt="chief">
+        </a>
+    </section>
+
+    <section class="contacto">
+        <form method="post" action="#">
+            <label for="name" class="name" placeholder="Nombre"> Nombre</label>
+                <input type="text" name="name">
+
+                <label for="apellido" class="apellido" placeholder="Apellido"> Apellido</label>
+                <input type="text" name="apellido">
+            
+            <label for="email" class="email" name="email" placeholder="Email"> Email</label>
+            <input type="text" name="Email">
+
+            <label for="password" class="password" name="password" placeholder="contraseña"> Contraseña</label>
+            <input type="text" name="password">
+
+            <label for="date" class="date" name="date"> Fecha de Nacimiento</label>
+            <input type="date" name="date">
+
+            <label for="telefono" class="telefono" name="telefono"> Teléfono</label>
+            <input type="number" name="telefono">
+
+            <select name="Ciudad">
+                <option value=""> Seleccione una opcion</option>
+                <option value="Caracas"> Caracas</option>
+                <option value="Maracay"> Maracay</option>
+                <option value="San Juan de los Morros"> San Juan de los Morros</option>
+            </select>
+            <select name="Sexo">
+                <option value="value"> Seleccione una opcion</option>
+                <option value="f"> Femenina</option>
+                <option value="m"> Masculino</option>
+                <option value="u">undefined</option>
+            </select>
+
+            <input type="submit" value="enviar">
+        </form>
+    </section>
+
+       
+</body>
+</html>
+
+
+

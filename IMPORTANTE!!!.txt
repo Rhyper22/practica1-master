@@ -1,0 +1,1 @@
+Por favor, extraer el archivo de fontawesome dentro de la carpeta "assets" para poder hacer uso de los iconos utilizados en esta presentación....gracias!
